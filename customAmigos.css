@@ -1,0 +1,42 @@
+body {
+    background-image: url(imagens/funda.jpg);
+    padding-top: 8rem;
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul li a {
+    color: #666!important;
+    font-size: 1.2rem;
+    text-align: right;
+    text-transform: uppercase;
+	text-decoration: none;
+}
+nav ul li a:hover {
+    text-shadow: 1px 1px 5px #CCC;
+}
+.nav-link {
+    padding-left: 5rem!important;
+}
+#perfil {
+color: 	#87CEFA;
+    padding: 2rem 0 1rem; 
+}
+h1 {
+    padding-top: 3rem;
+    font-size: 4rem;
+    letter-spacing: 0.25rem;
+    font-weight: 700;
+    padding-left: 15rem;
+}
+.float-right {
+    float: right!important;
+}
+.lead {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.card-text{
+    text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.1rem;
+	color: #333;
+}

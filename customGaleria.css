@@ -1,0 +1,91 @@
+body {
+    background-image: url(imagens/fundo.jpeg);
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul li a {
+    color:black!important;
+    font-size: 1.2rem;
+    text-align: right;
+    text-transform: uppercase;
+	text-decoration: none;
+}
+nav ul li a:hover {
+    text-shadow: 1px 1px 5px #CCC;
+}
+.nav-link {
+    padding-left: 5rem!important;
+}
+#perfil {
+    color:black;
+    padding: 2rem 0 1rem;
+}
+h1 {
+    padding-top: 3rem;
+    font-size: 4rem;
+    letter-spacing: 0.25rem;
+    font-weight: 700;
+    padding-left: 15rem;
+}
+h2{
+    color:black;
+}
+.float-right {
+    float: right!important;
+}
+.lead {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.card-text{
+    text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.1rem;
+	color: black;
+}
+.col-md-4{
+    width: 25rem;
+    margin-left: 8rem;
+    margin-right: 3rem;
+}
+.carousel .carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 600px;
+    max-height: 600px;
+}
+
+.carousel-caption {
+    background-color: rgba(255,255,255,0.7);
+    color: black;
+    border-radius: 1rem;
+}
+
+.carousel-caption h5 {
+    font-weight: bold;
+    color: #000;
+}
+
+.carousel-caption p {
+    font-weight: normal;
+    color: #333;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+
+
+.carousel-inner {
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem 0 #000;
+}
